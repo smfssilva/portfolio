@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Silva | Portfolio</title>
+   <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css')}}">
+
+</head>
+<body>
+   <main class="main main--error">
+      <h1>404 - Pagina não encontrada</h1>
+      <p>
+         Desculpa, não conseguimos encontrar a pagina que você esta procurando. Pode ser que o endereço esteja errado ou não exista.
+      </p>
+      <a href="{{ url_for('home')}}">Voltar para pagina inicial</a>
+
+   </main>
+</body>
+</html>
